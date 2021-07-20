@@ -1,0 +1,23 @@
+import random
+#NumberGuessingGame
+user = input('Hi User, What Is Your Name? ')
+
+num = random.randint(1,100)
+
+intro = ('Okay '+ user + 'Lets play a number guessing game!')
+
+num1 = int(input('Guess a number between 1 and 100: '))
+
+attempts = 1
+
+while num!=num1:
+if num1>num:
+print('try a lower number!')
+break
+if num1<num:
+print('try a higher number!')
+break
+attempts = attempts+1
+
+num1 = int(input('Enter The Number: '))
+print('Correct guess in attempts: ', attempts)
