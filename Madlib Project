@@ -1,0 +1,28 @@
+#introduction
+
+name = input('Welcome, What is your name: ')
+
+print ('Hi, ' + name + 'lets create a Madlib!')
+
+#createmadlib
+fav_food = input('Whats your favorite food: ')
+verb = input('Enter a verb (Something that your good at.): ')
+adj = input('Enter a adjective (Describing the type of person you are.): ')
+emb = input('Tell me about a embarrassing thing you did: ')
+honor = input('Tell me about a honorable thing you did: ')
+endearment = input('Your favorite endearment (Affectionate Nickname): ')
+neg = input('Enter a negative adjective(Something you blame yourself for being.): ')
+pos = input('Enter a positive adjective(Something positive about you.): ')
+pos1 = input('Enter a positive adjective(Something positive about you.): ')
+pos2 = input('Enter another positive adjective(Something positive about you).: ')
+adj2 = input('Enter a adjective(Adjective on how people treat you): ')
+verb = input('Enter a verb(Describing how you would react to how people treat you): ')
+
+#themadlib
+print ('Face it '+ name)
+print (' You are the greatest thing since '+ fav_food + ('.'))
+print ('No one else can '+ verb + ' like you can.')
+print ('Your best friend says that you are the '+ adj + '-est person in the world.' )
+print ('Sure you once '+ emb + ',but you also '+ honor + ('.'))
+print ('So, '+ endearment + ", today is the day your going to stop beating yourself up for being "+ neg + ' and start loving yourself for being '+ pos + ','+ pos1 + ',and '+ pos2 + ('.'))
+print (' And if people give you a '+ adj2 + ' time, regardless keep your head up and smile. You are amazing just the way you are!')
